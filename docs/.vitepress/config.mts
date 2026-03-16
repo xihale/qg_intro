@@ -29,7 +29,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/QGStudio' }
+      { icon: 'github', link: 'https://github.com/xihale/qg_intro' }
     ],
 
     search: {
