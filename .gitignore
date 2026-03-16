@@ -1,6 +1,10 @@
 # dependencies (bun install)
 node_modules
 
+# VitePress output & cache
+docs/.vitepress/dist
+docs/.vitepress/cache
+
 # output
 out
 dist
@@ -12,8 +16,8 @@ coverage
 
 # logs
 logs
-_.log
-report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
+*.log
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 # dotenv environment variable files
 .env
@@ -27,8 +31,15 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 .cache
 *.tsbuildinfo
 
-# IntelliJ based IDEs
+# IDEs
 .idea
+.vscode/
 
-# Finder (MacOS) folder config
+# OS specific
 .DS_Store
+Thumbs.db
+
+# Other
+index.ts
+tsconfig.json
+CLAUDE.md
