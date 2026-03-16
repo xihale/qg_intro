@@ -1,0 +1,16 @@
+{
+  "name": "qg-studio-backend-assessment",
+  "version": "1.0.0",
+  "description": "2026 QG Studio 后端组招新考核题目与 FAQ",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.30"
+  }
+}
