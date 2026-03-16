@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "QG Studio 后端组考核",
   description: "2026 QG Studio 后端组招新考核题目与问答",
-  base: '/qg_intro/',
+  base: '/',
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
