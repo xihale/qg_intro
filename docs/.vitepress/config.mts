@@ -4,6 +4,7 @@ export default defineConfig({
   title: "QG Studio 后端组考核",
   description: "2026 QG Studio 后端组招新考核题目与问答",
   base: '/',
+  cleanUrls: true,
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
