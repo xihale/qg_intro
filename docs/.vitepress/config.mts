@@ -8,7 +8,8 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '一轮考核', link: '/round-1/week-1' },
+      { text: '一轮考核', link: '/round-1/' },
+      { text: '二轮考核', link: '/round-2/' },
       { text: '问答说明', link: '/qa/2026-03-16' }
     ],
 
@@ -17,7 +18,16 @@ export default defineConfig({
         text: '一轮考核',
         collapsed: false,
         items: [
-          { text: '第一周：宿舍报修管理系统', link: '/round-1/week-1' }
+          { text: '概览', link: '/round-1/' },
+          { text: 'Console', link: '/round-1/week-1' },
+          { text: 'SpringBoot', link: '/round-1/week-2-3' }
+        ]
+      },
+      {
+        text: '二轮考核',
+        collapsed: false,
+        items: [
+          { text: '概览', link: '/round-2/' }
         ]
       },
       {
